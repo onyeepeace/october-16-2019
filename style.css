@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main-container {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+header#head {
+    background-image: url(images/inspireme.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#head h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(179, 80, 10);
+    font-size: 2.4rem;
+    letter-spacing: 0.05rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+hr.long {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    height: 15px;
+    width: 100px;
+    background-color: rgb(179, 80, 10) !important;
+    border: none;
+}
+
+section.black-section {
+    background-color: rgb(182, 132, 97) !important;
+    padding: 25px 35px;
+}
+
+#black-section-container {
+    width: 90%;
+    margin: auto;
+}
+
+div.about {
+    height: 150px;
+    border: 15px solid rgb(179, 80, 10);
+}
+
+.about h1 {
+    padding-top: 40px;
+    padding-left: 5px;
+}
+
+article.about-us {
+    padding-top: 30px;
+}
+
+.about-us p {
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.about-us a {
+    width: 40px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+article.more-about-us {
+    padding-top: 45px;
+}
+
+p#first-part {
+    padding-bottom: 40px;
+}
+
+section.plain-section {
+    padding: 30px 40px;
+}
+
+#plain-section-container {
+    width: 90%;
+    margin: auto;
+}
+
+div.top-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+div.designers {
+    border: 15px solid rgb(179, 80, 10);
+    height: 350px;
+}
+
+.designers h1 { 
+    padding-top: 120px;
+    padding-left: 5px;
+}
+
+article.our-designers {
+    padding-top: 40px;
+}
+
+.our-designers p {
+    padding-bottom: 40px;
+}
+
+.our-designers a {
+    width: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+div.bottom {
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+div.first-bottom-images img {
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 20px;
+}
+
+div.our-latest-projects {
+    border: 15px solid rgb(179, 80, 10);
+    height: 500px;
+    padding: 20px;
+}
+
+.our-latest-projects h1 {
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+article.latest-projects p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.latest-projects a {
+    width: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+div.second-bottom-images {
+    padding-top: 30px;
+}
+
+.second-bottom-images img {
+    width: 100%;
+    height: 25vh;
+    padding-bottom: 20px;
+}
+
+.second-bottom-images img#balcony {
+    width: 100%;
+    height: 45vh;
+}
+
+section.dark-section {
+    padding: 100px;
+    background-color: rgb(182, 132, 97);
+}
+
+blockquote {
+    text-align: center;
+}
+
+blockquote img {
+    width: 60%;
+    height: 20vh;
+    border-radius: 80px;
+    padding-bottom: 30px;
+}
+
+figcaption.woman {
+    padding-bottom: 50px;
+}
+
+#woman {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#man {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+hr.short {
+    height: 15px;
+    width: 70px;
+    display: block;
+    margin: auto;
+    background-color: rgb(179, 80, 10);
+    border: none;
+}
+
+#footer {
+    position: relative;
+    height: 400px;
+    margin-top: -100px;
+    clear: both; 
+}
+
+div#footer-image img {
+    width: 100%;
+    height: auto;
+}
+
+div.contact {
+    width: 80%;
+    margin: auto;
+    padding: 40px 10px;
+}
+
+.contact p {
+    line-height: 25px;
+}
+
+p.phone {
+    padding-top: 20px;
+}
+
+div.follow-us {
+    width: 90%;
+    margin: auto;
+    border: 15px solid rgb(179, 80, 10);
+    height: 280px;
+    padding: 25px;
+}
+
+.follow-us h1 {
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.follow-us p {
+    padding-bottom: 40px;
+}
+
+.follow-us a {
+    background-color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
